@@ -11,7 +11,9 @@ import {
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import NotificationsIcon from '@material-ui/icons/NotificationsOutlined';
+import EmailIcon from '@material-ui/icons/EmailOutlined';
 import InputIcon from '@material-ui/icons/Input';
+import Avatar from '@material-ui/core/Avatar';
 import Logo from './Logo';
 
 const DashboardNavbar = ({ onMobileNavOpen, ...rest }) => {
@@ -21,6 +23,7 @@ const DashboardNavbar = ({ onMobileNavOpen, ...rest }) => {
     <AppBar
       elevation={0}
       {...rest}
+      style={{ background: 'maroon' }}
     >
       <Toolbar>
         <RouterLink to="/">
@@ -34,11 +37,29 @@ const DashboardNavbar = ({ onMobileNavOpen, ...rest }) => {
               color="primary"
               variant="dot"
             >
+              <EmailIcon />
+            </Badge>
+          </IconButton>
+          <IconButton color="inherit">
+            <Badge
+              badgeContent={notifications.length}
+              color="primary"
+              variant="dot"
+            >
               <NotificationsIcon />
             </Badge>
           </IconButton>
           <IconButton color="inherit">
             <InputIcon />
+          </IconButton>
+          <IconButton color="inherit">
+            <Badge
+              badgeContent={notifications.length}
+              color="primary"
+              variant="dot"
+            >
+              <Avatar src="/broken-image.jpg" />
+            </Badge>
           </IconButton>
         </Hidden>
         <Hidden lgUp>
