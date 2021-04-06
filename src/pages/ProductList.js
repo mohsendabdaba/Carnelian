@@ -1,16 +1,28 @@
+import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import {
   Box,
   Container,
+  dividerClasses,
   Grid,
   Pagination
 } from '@material-ui/core';
 import ProductListToolbar from 'src/components/product/ProductListToolbar';
 import ProductCard from 'src/components/product//ProductCard';
 import products from 'src/__mocks__/products';
+import DashboardSidebar from '../components/DashboardSidebar';
+import { PaddingSharp } from '@material-ui/icons';
 
-const ProductList = () => (
-  <>
+const ProductList = () =>  {
+  const [isMobileNavOpen, setMobileNavOpen] = useState(false);
+
+  return (
+    <div>
+      <DashboardSidebar
+        onMobileClose={() => setMobileNavOpen(false)}
+        openMobile={isMobileNavOpen}
+      />
+  
     <Helmet>
       <title>Products | Material Kit</title>
     </Helmet>
@@ -18,7 +30,8 @@ const ProductList = () => (
       sx={{
         backgroundColor: 'background.default',
         minHeight: '100%',
-        py: 3
+        py: 3,
+        paddingLeft: '256px'
       }}
     >
       <Container maxWidth={false}>
@@ -56,7 +69,7 @@ const ProductList = () => (
         </Box>
       </Container>
     </Box>
-  </>
-);
-
+  </div>
+)
+}
 export default ProductList;

@@ -9,6 +9,7 @@ import {
 import { green } from '@material-ui/core/colors';
 // import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import PeopleIcon from '@material-ui/icons/PeopleOutlined';
+import {Link} from 'react-router-dom'
 
 const TotalCustomers = (props) => (
   <Card {...props}>
@@ -17,12 +18,15 @@ const TotalCustomers = (props) => (
         container
         spacing={3}
         sx={{ justifyContent: 'space-between' }}
+        component={Link} to="/app/customers"
       >
         <Grid item>
           <Typography
             color="textSecondary"
             gutterBottom
             variant="h3"
+          
+
           >
             PEOPLE
           </Typography>
