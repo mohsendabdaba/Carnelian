@@ -9,23 +9,29 @@ import {
 // import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/LibraryBooks';
 import { red } from '@material-ui/core/colors';
-
+import {Link} from 'react-router-dom'
 const Budget = (props) => (
   <Card
     sx={{ height: '100%' }}
     {...props}
+   
   >
-    <CardContent>
+   <div  >
+
+
+    <CardContent >
       <Grid
         container
         spacing={3}
         sx={{ justifyContent: 'space-between' }}
+        component={Link} to="/app/courses"
       >
         <Grid item>
           <Typography
             color="textSecondary"
             gutterBottom
             variant="h3"
+           
           >
             COURSES
           </Typography>
@@ -72,6 +78,7 @@ const Budget = (props) => (
         </Typography>
       </Box>
     </CardContent>
+    </div>
   </Card>
 );
 

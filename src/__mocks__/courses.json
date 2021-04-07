@@ -1,0 +1,622 @@
+[
+    {
+        "id": "001",
+        "title": "Junior Design Seminar  ",
+        "Description": "this is the first course in a two sequence intened to present the basics of engineering  desgin ",
+        "departement": {
+            "id": "013",
+            "name": "Biomedical engineering"
+        },
+        "instroctor": {
+            "id": "001",
+            "name": "john smith",
+            "email": "john.smith@university.com"
+        },
+        "Period": {
+            "id": "07",
+            "name": "spring 2021",
+            "Start Date": "Monday,28-mars-2019",
+            "End Date": "Saturday ,20-Mai-2020"
+        },
+        "Course Learning Outcomes": [
+            {
+                "id": "1",
+                "title": "Define the fundamental principles of  database management systems and its working",
+                "Domain": "Knowledge",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "30%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "30%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "40%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "0%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "0%"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "title": "Design a normalized database application necessary for computer engineering practice using modern tools",
+                "Domain": "Knowledge, Skills",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "25%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "25%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "0%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "0%"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "title": "Design database applications using Oracle front end tools",
+                "Domain": "skill",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "25%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "25%"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "title": "Model the real world using ER data models to describe an application’s data within realistic constraints",
+                "Domain": "skill",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "25%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "25%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "25%"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "title": "Work in a oracle database environment and test the results",
+                "Domain": "skill",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "25%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "25%"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "title": "Work independently and within a team on projects related to Database Applications",
+                "Domain": "value",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "50%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "0%"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "002",
+        "title": "Communication",
+        "Description": "Transform your communication skills . This series offers simple and practical tools that can be easily integrated into your daily life.",
+        "departement": {
+            "id": "011",
+            "name": "laguages department"
+        },
+        "instroctor": {
+            "id": "004",
+            "name": "john smith",
+            "email": "john.smith@university.com"
+        },
+        "Period": {
+            "id": "06",
+            "name": "spring 2020",
+            "Start Date": "Monday,28-mars-2020",
+            "End Date": "Saturday ,20-jun-2020"
+        },
+        "Course Learning Outcomes": [
+            {
+                "id": "1",
+                "title": "Understanding The Communication Flow",
+                "Domain": "Knowledge",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "30%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "30%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "40%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "0%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "0%"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "title": " Understanding the types of Communication",
+                "Domain": "Knowledge, Skills",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "25%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "25%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "0%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "0%"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "title": "begin effectively communicate both as The Receiver and The Sender.",
+                "Domain": "skill",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "25%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "25%"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "title": "Learn how to avoid unintentional miscommunication",
+                "Domain": "skill",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "25%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "25%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "25%"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "title": " identify and understand where there’s communication breakdown and how it can be remedied",
+                "Domain": "skill",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "25%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "25%"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "title": " make your communication clear and concise while being heartfelt and authentic",
+                "Domain": "value",
+                "Assessments": [
+                    {
+                        "evaluation": "Home WORK 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Quiz 2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation":  "Quiz 3",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam1",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Mid Exam2",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "Final Exam",
+                        "percentage": "0%"
+                    },
+                    {
+                        "evaluation": "lab activity",
+                        "percentage": "50%"
+                    },
+                    {
+                        "evaluation": "lab home work ",
+                        "percentage": "50%"
+                    }
+                    ,
+                    {
+                        "evaluation": "lab exam",
+                        "percentage": "0%"
+                    }
+                ]
+            }
+        ]
+    }
+]

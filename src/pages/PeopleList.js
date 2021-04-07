@@ -4,7 +4,7 @@ import CustomerListResults from 'src/components/customer/CustomerListResults';
 import CustomerListToolbar from 'src/components/customer/CustomerListToolbar';
 import customers from 'src/__mocks__/customers';
 
-const CustomerList = () => (
+const PeopleList = () => (
   <>
     <Helmet>
       <title>Customers | Material Kit</title>
@@ -26,4 +26,4 @@ const CustomerList = () => (
   </>
 );
 
-export default CustomerList;
+export default PeopleList;
