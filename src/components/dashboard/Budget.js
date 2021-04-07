@@ -24,7 +24,7 @@ const Budget = (props) => (
         container
         spacing={3}
         sx={{ justifyContent: 'space-between' }}
-        component={Link} to="/app/products"
+        component={Link} to="/app/courses"
       >
         <Grid item>
           <Typography

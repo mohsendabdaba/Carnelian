@@ -27,7 +27,7 @@ const ProductListToolbar = (props) => (
         color="primary"
         variant="contained"
       >
-        Add product
+        Add Course
       </Button>
     </Box>
     <Box sx={{ mt: 3 }}>
@@ -48,7 +48,7 @@ const ProductListToolbar = (props) => (
                   </InputAdornment>
                 )
               }}
-              placeholder="Search product"
+              placeholder="Search course"
               variant="outlined"
             />
           </Box>

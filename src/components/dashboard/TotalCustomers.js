@@ -18,7 +18,7 @@ const TotalCustomers = (props) => (
         container
         spacing={3}
         sx={{ justifyContent: 'space-between' }}
-        component={Link} to="/app/customers"
+        component={Link} to="/app/people"
       >
         <Grid item>
           <Typography

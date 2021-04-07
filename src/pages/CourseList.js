@@ -10,12 +10,13 @@ import {
 import ProductListToolbar from 'src/components/product/ProductListToolbar';
 import ProductCard from 'src/components/product//ProductCard';
 import products from 'src/__mocks__/products';
+import courses from 'src/__mocks__/courses.json';
 import DashboardSidebar from '../components/DashboardSidebar';
 import { PaddingSharp } from '@material-ui/icons';
 
-const ProductList = () =>  {
+const CourseList = () =>  {
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
-
+console.log(courses,"courses")
   return (
     <div>
       <DashboardSidebar
@@ -41,15 +42,15 @@ const ProductList = () =>  {
             container
             spacing={3}
           >
-            {products.map((product) => (
+            {courses.map((course) => (
               <Grid
                 item
-                key={product.id}
+                key={course.id}
                 lg={4}
                 md={6}
                 xs={12}
               >
-                <ProductCard product={product} />
+                <ProductCard course={course} />
               </Grid>
             ))}
           </Grid>
@@ -72,4 +73,4 @@ const ProductList = () =>  {
   </div>
 )
 }
-export default ProductList;
+export default CourseList;
