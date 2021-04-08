@@ -18,7 +18,7 @@
             "Start Date": "Monday,28-mars-2019",
             "End Date": "Saturday ,20-Mai-2020"
         },
-        "Course Learning Outcomes": [
+        "courseLearningOutcomes": [
             {
                 "id": "1",
                 "title": "Define the fundamental principles of  database management systems and its working",
@@ -328,7 +328,7 @@
             "Start Date": "Monday,28-mars-2020",
             "End Date": "Saturday ,20-jun-2020"
         },
-        "Course Learning Outcomes": [
+        "courseLearningOutcomes": [
             {
                 "id": "1",
                 "title": "Understanding The Communication Flow",
