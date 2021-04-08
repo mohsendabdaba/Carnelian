@@ -11,6 +11,8 @@ import Register from 'src/pages/Register';
 import Settings from 'src/pages/Settings';
 import Assessments from 'src/pages/Assessments';
 import Outcomes from 'src/pages/Outcomes';
+import Classification from 'src/pages/Classification';
+
 const routes = [
   {
     path: 'app',
@@ -23,6 +25,7 @@ const routes = [
       { path: 'settings', element: <Settings /> },
       { path: 'assessments', element: <Assessments /> },
       { path: 'outcomes', element: <Outcomes /> },
+      { path: 'classification', element: <Classification /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]
   },
