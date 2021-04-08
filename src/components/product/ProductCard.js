@@ -69,7 +69,7 @@ const ProductCard = ({ course, ...rest }) => {
         >
           {course.Description}
         </Typography>
-        <div style={{ "display": "flex", "justifyContent": "space-around", "marginTop": "10px", "marginEnd": "10px" }}>
+        <div style={{ "display": "flex", "justifyContent": "space-around", "marginTop": "40px", "marginEnd": "10px" }}>
           <Grid style={{ "display": "flex", "flexDirection": "column", "alignItems": "center" }}>
             <Avatar
               sx={{
@@ -80,7 +80,7 @@ const ProductCard = ({ course, ...rest }) => {
             >
               6
           </Avatar>
-            <p style={{ "marginTop": "10px", "fontSize": "14px" }}>CLOs Number</p>
+            <p style={{ "marginTop": "10px", "fontSize": "14px" }}>CLOs</p>
           </Grid>
           <Grid item style={{ "display": "flex", "flexDirection": "column", "alignItems": "center" }}>
             <Avatar
@@ -92,7 +92,7 @@ const ProductCard = ({ course, ...rest }) => {
             >
               20
           </Avatar>
-            <p style={{ "marginTop": "10px", "fontSize": "14px" }}>Students Number</p>
+            <p style={{ "marginTop": "10px", "fontSize": "14px" }}>Students</p>
           </Grid>
           <Grid item style={{ "display": "flex", "flexDirection": "column", "alignItems": "center" }}>
             <Avatar
@@ -104,7 +104,7 @@ const ProductCard = ({ course, ...rest }) => {
             >
               70%
           </Avatar>
-            <p style={{ "marginTop": "10px", "fontSize": "14px" }}>Passed Succsufully</p>
+            <p style={{ "marginTop": "10px", "fontSize": "14px" }}>Passed</p>
           </Grid>
 
         </div>
@@ -113,14 +113,16 @@ const ProductCard = ({ course, ...rest }) => {
       </CardContent>
       <div>
         <Grid container alignItems="center" className={classes.root} >
-          
-          <div className={classes1.root} style={{"width":"48%",textAlign:"center"}}>
+        <div className={classes1.root} style={{"width":"32%",textAlign:"center"}}>
+            <Button   component={RouterLink} to='/app/outcomes'color="warning">Articulation Matrix</Button>
+          </div>
+          <Divider orientation="vertical" flexItem />
+          <div className={classes1.root} style={{"width":"32%",textAlign:"center"}}>
             <Button component={RouterLink} to='/app/assessments' color="warning" >ASSESSMENTS</Button>
           </div>
           <Divider orientation="vertical" flexItem />
-          <div className={classes1.root} style={{"width":"48%",textAlign:"center"}}>
-            <Button   component={RouterLink} to='/app/outcomes'color="warning">OutComes</Button>
-
+          <div className={classes1.root} style={{"width":"32%",textAlign:"center"}}>
+            <Button   component={RouterLink} to='/app/classification'color="warning">Classification</Button>
           </div>
         </Grid>
       </div>

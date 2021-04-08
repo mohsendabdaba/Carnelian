@@ -46,7 +46,7 @@ console.log(courses,"courses")
               <Grid
                 item
                 key={course.id}
-                lg={4}
+                lg={6}
                 md={6}
                 xs={12}
               >
