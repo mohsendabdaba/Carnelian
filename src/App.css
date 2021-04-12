@@ -1,0 +1,6 @@
+.c-1-color { background: rgb(168, 168, 168); }
+.c-2-color { background: rgb(255, 215, 178); }
+.c-3-color { background: rgba(255, 152, 56, 0.952); }
+.c-4-color { background: rgb(255, 230, 4); }
+.c-5-color { background: rgb(157, 255, 0); }
+@import '~antd/dist/antd.css';
