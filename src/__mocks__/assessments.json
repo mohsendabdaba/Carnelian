@@ -1,0 +1,134 @@
+[
+    {
+        "id": "01",
+        "name": "Ekaterina Tankova",
+        "email": "ekaterina.tankova@devias.io",
+        "course": "Junior Design Seminar",
+        "result":[0,3],
+        "Assessemnts": [
+            {
+                "clo": "Define the fundamental principles of  database management systems and its working",
+                "evaluation": [
+                    {
+                        "type": "Mid Exam1",
+                        "note": "09",
+                        "totalMarks": "15"
+                    },
+                    {
+                        "type": "Mid Exam2",
+                        "note": "15",
+                        "totalMarks": "20"
+                    },
+                    {
+                        "type": "final Exam",
+                        "note": "26",
+                        "totalMarks": "30"
+                    }
+                ]
+            },
+            {
+                "clo": "Design a normalized database application necessary for computer engineering practice using modern tools ",
+                "evaluation": [
+                    {
+                        "type": "Mid Exam2",
+                        "note": "17",
+                        "totalMarks": "20"
+                    },
+                    {
+                        "type": "final Exam",
+                        "note": "26",
+                        "totalMarks": "30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "02",
+        "name": "Alexa Richardson",
+        "email": "ekaterina.tankova@devias.io",
+        "course": "Junior Design Seminar",
+        "result":[2,3],
+        "Assessemnts": [
+            {
+                "clo": "Define the fundamental principles of  database management systems and its working",
+                "evaluation": [
+                    {
+                        "type": "Mid Exam1",
+                        "note": "09",
+                        "totalMarks": "15"
+                    },
+                    {
+                        "type": "Mid Exam2",
+                        "note": "15",
+                        "totalMarks": "20"
+                    },
+                    {
+                        "type": "final Exam",
+                        "note": "26",
+                        "totalMarks": "30"
+                    }
+                ]
+            },
+            {
+                "clo": "Design a normalized database application necessary for computer engineering practice using modern tools ",
+                "evaluation": [
+                    {
+                        "type": "Mid Exam2",
+                        "note": "17",
+                        "totalMarks": "20"
+                    },
+                    {
+                        "type": "final Exam",
+                        "note": "26",
+                        "totalMarks": "30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "03",
+        "name": "Clarke Gillebert",
+        "email": "ekaterina.tankova@devias.io",
+        "course": "Junior Design Seminar",
+        "result":[2,3],
+        "Assessemnts": [
+            {
+                "clo": "Define the fundamental principles of  database management systems and its working",
+                "evaluation": [
+                    {
+                        "type": "Mid Exam1",
+                        "note": "09",
+                        "totalMarks": "15"
+                    },
+                    {
+                        "type": "Mid Exam2",
+                        "note": "15",
+                        "totalMarks": "20"
+                    },
+                    {
+                        "type": "final Exam",
+                        "note": "26",
+                        "totalMarks": "30"
+                    }
+                ]
+            },
+            {
+                "clo": "Design a normalized database application necessary for computer engineering practice using modern tools ",
+                "evaluation": [
+                    {
+                        "type": "Mid Exam2",
+                        "note": "17",
+                        "totalMarks": "20"
+                    },
+                    {
+                        "type": "final Exam",
+                        "note": "26",
+                        "totalMarks": "30"
+                    }
+                ]
+            }
+        ]
+    }
+]
